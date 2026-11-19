@@ -1,0 +1,8 @@
+.DS_Store
+.local/
+*.pem
+*.key
+*credentials*.csv
+*accessKeys*.csv
+.env
+.env.*

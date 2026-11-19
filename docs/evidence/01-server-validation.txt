@@ -1,0 +1,62 @@
+Warning: Permanently added '3.36.63.53' (ED25519) to the list of known hosts.
+status: done
+Thu Nov 19 01:37:43 UTC 2026
+Ubuntu 24.04.5 LTS
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+active
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   615  100   615    0     0   939k      0 --:HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 19 Nov 2026 01:37:43 GMT
+Content-Type: text/html
+Content-Length: 615
+Last-Modified: Thu, 19 Nov 2026 01:36:28 GMT
+Connection: keep-alive
+ETag: "6afe529c-267"
+Accept-Ranges: bytes
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+html { color-scheme: light dark; }
+body { width: 35em; margin: 0 auto;
+font-family: Tahoma, Verdana, Arial, sans-serif; }
+</style>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<p>If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.</p>
+
+<p>For online documentation and support please refer to
+<a href="http://nginx.org/">nginx.org</a>.<br/>
+Commercial support is available at
+<a href="http://nginx.com/">nginx.com</a>.</p>
+
+<p><em>Thank you for using nginx.</em></p>
+</body>
+</html>
+--:-- --:--:-- --:--:--  600k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/2 200
+date: Thu, 19 Nov 2026 01:37:43 GMT
+content-type: text/html; charset=utf-8
+server: cloudflare
+last-modified: Wed, 18 Nov 2026 10:54:07 GMT
+allow: GET, HEAD
+accept-ranges: bytes
+age: 8469
+cf-cache-status: HIT
+cf-ray: a5cb7dc95d7ddd08-ICN
+alt-svc: h3=":443"; ma=86400
+
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
