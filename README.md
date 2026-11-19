@@ -123,14 +123,16 @@ EC2에 연결된 `codyssey-b3-web-sg`의 인바운드 규칙은 두 개다.
 
 ## 6. 리소스 정리
 
-2026-11-19 10:47 KST 기준.
+정리일: 2026-11-19 · 서울 리전
 
 - [x] EC2 종료(Terminated), 실행 중 인스턴스 0개
 - [x] 루트 EBS 삭제, 남은 볼륨 0개
 - [x] 자동 할당 퍼블릭 IPv4 해제
 - [x] Elastic IP 할당 0개
-- [ ] Internet Gateway 삭제 — 연결 유지
-- [ ] VPC 삭제 — 서브넷·라우팅 테이블·보안 그룹과 함께 유지
+- [x] Internet Gateway 삭제
+- [x] VPC·서브넷·라우팅 테이블·보안 그룹 삭제
 
 ![EC2 종료와 퍼블릭 IPv4 해제](docs/screenshots/23-ec2-terminated.jpg)
 ![실행 중 EC2·EBS·Elastic IP 0개](docs/screenshots/25-ec2-cleanup-summary.jpg)
+
+![실습 VPC와 연결 리소스 삭제](docs/screenshots/26-vpc-deleted.jpg)
